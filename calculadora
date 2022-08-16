@@ -1,0 +1,21 @@
+# Calculadora
+numero1 = int(input("Primeiro Número:"))
+numero2 = int(input("Segundo Número:"))
+
+operacao = input(f"Qual operação você quer fazer com {numero1} e {numero2}?")
+
+# ____________AREA DAS CONTAS_________________________________________
+if operacao == "+" or "somar":
+    print(numero1 + numero2)
+
+elif operacao == "-" or "menos":
+    print(numero1 - numero2)
+
+elif operacao == "*" or "vezes":
+    print(numero1 * numero2)
+
+elif operacao == "/" or "divição":
+    print(numero1 / numero2)
+
+else:
+    print("Digite um operador, entre: / , * , + ,-, **")
